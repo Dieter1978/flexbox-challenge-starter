@@ -139,10 +139,10 @@ main article p {
     margin-bottom:1rem;
 }
 
-#social-links > div{
+#social-links nav{
     width:100%;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer {
@@ -154,4 +154,93 @@ footer p {
     font-family: 'Bree Serif', 'Times New Roman', Times, serif;
     font-size:1.25 rem;
 
+}
+
+
+/* *** TABLET STYLES *** */
+@media only screen and (min-width:550px){
+        header {
+            margin-top: 0.5 rem;
+            flex-direction: row;
+            align-items:center;
+            justify-content: space-around;
+        }
+
+        #brand {
+            margin-left: 1.5 rem;
+            width: 25%;
+           
+            margin-bottom: 0;
+            /* margin-bottom:1rem; */
+        }
+
+
+
+}
+
+@media only screen and (min-width:800px){
+
+    #hero img{
+   
+        width: 50%;
+        
+    }   
+
+}
+
+@media only screen and (min-width:750px){
+    main{
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin-bottom: 0.5 rem;
+        
+    }
+    main h2 {
+        width: 100%;
+        text-align:center;
+       
+    }
+    main article{
+        width: 33.33%
+    }
+
+    main article .outline-button {
+        font-size:.5 rem;
+      
+         white-space: nowrap; 
+    }
+
+
+
+}
+
+
+/* *** DESKTOP STYLES *** */
+@media only screen and (min-width:1000px){
+    header {
+        padding: 0.5rem 0 1 rem;
+        justify-content: space-between;
+    }
+    
+    #brand {
+        margin-left: 1.5rem;
+        /* margin-top: 1.5rem; */
+        width: 7%;
+    }
+
+    header nav{
+        width: auto;
+        
+    }
+
+    header nav a {
+        margin: 0 1rem;
+        margin-right: 1.5 rem;
+    }
+
+    #hero img{
+   
+        width: 20%;
+        border-radius:50%;
+    }
 }
