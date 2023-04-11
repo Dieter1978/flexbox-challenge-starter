@@ -145,3 +145,13 @@ main article p {
     justify-content: space-around;
 }
 
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-family: 'Bree Serif', 'Times New Roman', Times, serif;
+    font-size:1.25 rem;
+
+}
